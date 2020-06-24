@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Clinica.Controllers
 {
-    public class OdontologosController : Controller
+    public class RolesController : Controller
     {
-        // GET: Odontologo
+        // GET: Pacientes
         public ActionResult Index()
         {
             return View();

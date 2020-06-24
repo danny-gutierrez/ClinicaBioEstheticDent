@@ -121,10 +121,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CitasController.cs" />
+    <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OdontologosController.cs" />
     <Compile Include="Controllers\TratamientosController.cs" />
-    <Compile Include="Controllers\AdministradorController.cs" />
+    <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\PacientesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -132,9 +133,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\img\contact.jpg" />
     <Content Include="Content\img\dent.jpg" />
     <Content Include="Content\img\favicon.ico" />
     <Content Include="Content\img\profile.jpg" />
+    <Content Include="Content\img\maps.jpg" />
     <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -172,7 +175,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
-    <Content Include="Views\Administrador\Index.cshtml" />
+    <Content Include="Views\Roles\Index.cshtml" />
     <Content Include="Views\Citas.cshtml" />
     <Content Include="Views\Citas\Create.cshtml" />
     <Content Include="Views\Citas\Edit.cshtml" />
@@ -184,6 +187,8 @@
     <Content Include="Views\Tratamientos\Create.cshtml" />
     <Content Include="Views\Odontologos\Create.cshtml" />
     <Content Include="Views\Odontologos\Index.cshtml" />
+    <Content Include="Views\Shared\Partials\_MenuLateral.cshtml" />
+    <Content Include="Views\Contacto\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
